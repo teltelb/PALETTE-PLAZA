@@ -71,10 +71,10 @@ function calculatePrice() {
     let omakasePrice = selfPrice;
     switch(discount) {
         case '超早割':
-        case '早割':
             omakasePrice += quantity * 100;
             break;
         case '通常料金':
+        case '早割':
             omakasePrice += quantity * 200;
             break;
     }
